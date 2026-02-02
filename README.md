@@ -7,7 +7,7 @@ DOM Manipuation - https://dom-manipulation-counter.netlify.app/
 John and his Friends - https://johnwithhisfriends.netlify.app/
 <br>
 <br>
-Professional Management System - <button href="https://professional-management-system.netlify.app/"> Click Here </button>
+Professional Management System - https://professional-management-system.netlify.app/
 <br>
 <br>
-Student Management System - <button href="https://students-management-system-throughobj.netlify.app/"> Click Here </button>
+Student Management System - https://students-management-system-throughobj.netlify.app/
