@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    overflow-x: hidden;
+}
+
+/* CENTER MAIN CONTENT */
+.container {
+    max-width: 70%;
+    margin: auto;
+    padding: 0 20px;
+}
+
+/* RESPONSIVE WIDTH */
+@media (max-width: 1024px) {
+    .container {
+        max-width: 90%;
+    }
+}
+
+/* HEADER */
+.heading {
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+    margin: 20px 0;
+}
+
+@media (max-width: 768px) {
+    .heading {
+        font-size: 32px;
+    }
+}
+
+/* INPUT SECTION */
+.input_field {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.task_detail,
+.date,
+#priority {
+    flex: 1;
+    min-width: 200px;
+    height: 60px;
+    padding: 10px;
+    border: 2px solid black;
+    font-size: 20px;
+}
+
+button {
+    height: 60px;
+    padding: 10px 20px;
+    border: none;
+    background: black;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* SECTION HEADINGS */
+.heading_small {
+    font-size: 32px;
+    margin: 40px 0 20px;
+    font-weight: 600;
+}
+
+/* TODO LIST CONTAINERS */
+.Today_box_container1,
+.Today_box_container2,
+.Today_box_container3 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* TODO ITEM CARD */
+.box_body1,
+.box_body2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr auto;
+    align-items: center;
+    gap: 15px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+/* TODAY TASK */
+.box_body1 {
+    background: black;
+    color: white;
+}
+
+/* FUTURE TASK */
+.box_body2 {
+    border: 2px solid black;
+}
+
+/* TASK NAME */
+.body_item1 {
+    flex: 1;
+    min-width: 200px;
+}
+
+/* ACTION BUTTONS */
+.body_item3 {
+    display: flex;
+    gap: 15px;
+}
+
+/* COMPLETED SECTION SPACING */
+.complete_todo {
+    margin-bottom: 40px;
+}
+
+/* MOBILE OPTIMIZATION */
+@media (max-width: 600px) {
+    .heading_small {
+        font-size: 24px;
+    }
+
+    .box_body1,
+    .box_body2 {
+        font-size: 16px;
+    }
+
+    button {
+        width: 100%;
+        font-size: 18px;
+    }
+}
